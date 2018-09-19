@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top img-fluid" src="../../../assets/images/image-14.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="src/assets/images/image-14.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title text-center">Card title</h5>
                         <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
@@ -24,7 +24,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="../../../assets/images/image-15.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="src/assets/images/image-15.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title text-center">Card title</h5>
                         <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="../../../assets/images/image-16.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="src/assets/images/image-16.jpg" alt="Card image cap">
                 </div>
             </div>
 
