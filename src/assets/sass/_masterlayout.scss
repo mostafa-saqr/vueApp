@@ -1,0 +1,121 @@
+body, h1, h2,h3,h4,h5,h6,p,span,a,ul,li,div{
+    font-family: 'Lato', sans-serif ;
+  }
+  .fixed-bottom, .fixed-top {
+    z-index: 6030;
+}
+.joi-color{
+  color: $mainColor;
+}
+/*custome checkbox*/
+.custom-control-indicator {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #fff;
+    z-index: 3000;
+    border: 2px solid #888;
+    position: absolute;
+    top: .25rem;
+    left: 0;
+    display: block;
+    pointer-events: none;
+    user-select: none;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 50% 50%;
+}
+.extrajoi-check {
+    padding: 0;
+    margin: 0;
+    cursor: copy;
+}
+.custom-control-input:checked~.custom-control-indicator {
+    background-color: #7428b7;
+}
+.custom-control-input:focus~.custom-control-indicator {
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0), 0 0 0 0.2rem rgba(255, 255, 255, 0);
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-indicator {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+}
+/*card format*/
+.card {
+  border: 0px;
+  background: rgba(255, 255, 255, 0);
+    a{
+      text-decoration: none ;
+    }
+    .card-body {
+        padding: 0.25rem 0;
+
+    }
+    .card-price{
+      color: $mainColor;
+
+    }
+    .card-title {
+        color: black;
+        font-size: 16px;
+        height: 38.4px;
+        overflow: hidden;
+
+    }
+}
+.breadcrumb {
+    background-color:rgba(246, 247, 250, 0);
+}
+.joi-vector-2-2{
+    cursor: pointer;
+}
+.fw{
+    width: 100%;
+}
+.hidden-overflow{
+    overflow: hidden;
+}
+.section-title {
+    text-align: center;
+    position: relative;
+    margin: 0px 0px 40px 0px;
+    color: $mainColor;
+    &:after {
+        position: absolute;
+        content: "";
+        width: 85px;
+        height: 5px;
+        bottom: -11px;
+        display: block;
+        margin: auto;
+        left: 0;
+        right: 0;
+        background: $mainColor;
+    }
+}
+/*city selection validation message */
+.validation-popup {
+    position: absolute;
+    z-index: 5100;
+    top: 0;
+    background: rgba(0, 0, 0, 0.69);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    .validation-panel {
+        width: 439px;
+        background: white;
+        padding: 34px;
+        margin: auto;
+        position: relative;
+        .joi-vector-2-2 {
+            position: absolute;
+            right: 15px;
+            top: 10px;
+        }
+    }
+}
+.partners-carousel{
+  .owl-prev, .owl-next {
+    font-size: 25px !important;
+    top: -15px !important;
+  }
+}

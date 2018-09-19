@@ -1,0 +1,143 @@
+
+.bottom-header {
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    background: #f8f9fa;
+    ul{
+      li{
+        &:hover{
+          border-bottom: 3px solid $mainColor;
+        }
+        &:first-child{
+          padding-left: 0 !important;
+        }
+        a {
+            color: black !important;
+
+        }
+      }
+    }
+
+    .multi-col {
+      width: 100%;
+      top: 42px;
+      border: 0;
+      border-radius: 0;
+      padding-top: 20px;
+      min-height: 441px;
+      border-top: 1px solid #CCCCCC;
+        a{
+          &:hover{
+            background: rgba(248, 249, 250, 0);
+            border-bottom: 1px solid $mainColor;
+          }
+        }
+        .menu-links{
+          a{
+              white-space: pre-wrap;
+          }
+        }
+        .menu-img{
+          .img-container{
+            overflow: hidden;
+            a{
+              font-size: 15px;
+
+            }
+          }
+          .two-col, .four-col, .one-of-five-col, .four-of-five-col{
+            img{
+              width: 100%;
+              height: auto;
+            }
+          }
+          .eight-col {
+              width: 150px;
+              height: 115px;
+          }
+          .one-of-five-col {
+              width: 250px;
+              height: 358px;
+          }
+          .four-of-five-col {
+              width: 250px;
+              height: 160px;
+          }
+          .two-col{
+            width: 410px;
+            height: 250px;
+          }
+          .four-col{
+            max-height: 160px;
+          }
+        }
+    }
+    .dropdown,
+    .navbar {
+        position: unset;
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    .dropdown-toggle::after {
+        border-top: 0;
+    }
+    .whatsjoi {
+        text-decoration: none;
+        span {
+            display: inline-block;
+            vertical-align: super;
+        }
+        i {
+            font-size: 25px;
+        }
+    }
+    .megamenu-mask {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.52);
+        z-index: 2;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .bottom-header{
+        .multi-col{
+            top: 41px;
+        }
+        ul{
+            li{
+                a{
+                    font-size: 0.9rem;  
+                }
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 991px) {
+    .bottom-header{
+        border-bottom: 0;
+        .multi-col {
+            padding-top: 20px;
+            min-height: 20px; 
+            
+        }
+        .container{
+            max-width: 100%;
+            .menu-img{
+                display: none;
+            }
+            
+        }
+        
+    }
+    
+}

@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "face-mess";
+  src:url("../fonts/customeico-font62018/face-mess.eot");
+  src:url("../fonts/customeico-font62018/face-mess.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/customeico-font62018/face-mess.woff") format("woff"),
+    url("../fonts/customeico-font62018/face-mess.ttf") format("truetype"),
+    url("../fonts/customeico-font62018/face-mess.svg#face-mess") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "face-mess" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="joi-"]:before,
+[class*=" joi-"]:before {
+  font-family: "face-mess" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.joi-account:before {
+  content: "\61";
+}
+.joi-bag:before {
+  content: "\62";
+}
+.joi-fill-104:before {
+  content: "\63";
+}
+.joi-front-arrow-1:before {
+  content: "\65";
+}
+.joi-gift:before {
+  content: "\66";
+}
+.joi-mail:before {
+  content: "\67";
+}
+.joi-phone:before {
+  content: "\68";
+}
+.joi-secure:before {
+  content: "\69";
+}
+.joi-vector:before {
+  content: "\6a";
+}
+.joi-vector-1:before {
+  content: "\6b";
+}
+.joi-vector-2:before {
+  content: "\6c";
+}
+.joi-vector-3:before {
+  content: "\6d";
+}
+.joi-vector-4:before {
+  content: "\6e";
+}
+.joi-vector-5:before {
+  content: "\6f";
+}
+.joi-front-arrow:before {
+  content: "\64";
+}
+.joi-vector-6:before {
+  content: "\70";
+}
+.joi-vector-7:before {
+  content: "\71";
+}
+.joi-vector-1-1:before {
+  content: "\72";
+}
+.joi-vector-1-2:before {
+  content: "\73";
+}
+.joi-vector-2-1:before {
+  content: "\74";
+}
+.joi-vector-3-1:before {
+  content: "\75";
+}
+.joi-vector-4-1:before {
+  content: "\76";
+}
+.joi-vector-5-1:before {
+  content: "\77";
+}
+.joi-vector-6-1:before {
+  content: "\78";
+}
+.joi-vector-7-1:before {
+  content: "\79";
+}
+.joi-vector-8:before {
+  content: "\7a";
+}
+.joi-vector-9:before {
+  content: "\41";
+}
+.joi-vector-10:before {
+  content: "\42";
+}
+.joi-vector-11:before {
+  content: "\43";
+}
+.joi-emptyshoppingcart:before {
+  content: "\44";
+}
+.joi-vector-1-3:before {
+  content: "\45";
+}
+.joi-vector-1-4:before {
+  content: "\46";
+}
+.joi-vector-12:before {
+  content: "\47";
+}
+.joi-vector-3-2:before {
+  content: "\48";
+}
+.joi-group-1:before {
+  content: "\49";
+}
+.joi-fill-134:before {
+  content: "\4a";
+}
+.joi-combined-shape:before {
+  content: "\4b";
+}
+.joi-fill-29:before {
+  content: "\4c";
+}
+.joi-fill-34:before {
+  content: "\4d";
+}
+.joi-group:before {
+  content: "\4f";
+}
+.joi-shape:before {
+  content: "\4e";
+}
+.joi-shape-1:before {
+  content: "\50";
+}
+.joi-facebook-square:before {
+  content: "\51";
+}
+.joi-linkedin-square:before {
+  content: "\52";
+}
+.joi-instagram:before {
+  content: "\53";
+}
+.joi-twitter-square:before {
+  content: "\54";
+}
+.joi-youtube-play:before {
+  content: "\56";
+}
+.joi-cog:before {
+  content: "\55";
+}

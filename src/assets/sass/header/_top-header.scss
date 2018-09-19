@@ -1,0 +1,49 @@
+
+.top-header {
+    background: #F6F7FA;
+    .site-portals {
+    padding-top: 12.6px;
+    }
+    .callnow {
+        a {
+            color: $mainColor;
+            text-decoration: none;
+        }
+        
+    }
+    ul {
+        margin: 0px;
+        li {
+            margin: 0px 0.2rem !important;
+            a {
+                color: #4F4F4F;
+                background: #E6E8ED;
+                font-size: 14px;
+                padding: 3.8px 12px;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 5px 5px 0px 0px;
+            }
+            .active {
+                background: white;
+                box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.104195);
+                color: $mainColor;
+            }
+        }
+    }
+}
+.admin-header-links {
+  position: absolute;
+  z-index: 5000;
+  left: 1rem;
+  top: 0;
+  ul{
+    li{
+      a{
+        background: rgba(255, 255, 255, 0);
+        color: $mainColor;
+        font-size: 28px;
+      }
+    }
+  }
+}

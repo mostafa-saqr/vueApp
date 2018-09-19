@@ -1,0 +1,60 @@
+.social-links {
+    background: #f4f5f8;
+    padding-bottom: 15px;
+    strong {
+        font-size: 20px;
+    }
+    i{
+        font-size: 45px;
+        text-decoration: none;
+      }
+
+      .joi-facebook-square{
+        color: #4155a2
+      }
+      .joi-twitter-square{
+        color: #1da0f1
+      }
+      .joi-youtube-play{
+        color: #dc2824
+      }
+      .instgram-list{
+        height: 49px;
+        line-height: 46px;
+        vertical-align: super;
+        .instgram {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+            height: 37px;
+            width: 37px;
+            display: inline-block;
+            border-radius: 5px;
+            .joi-instagram{
+              color: white;
+              font-size: 26px;
+            }
+        }
+      }
+
+}
+@media only screen and (max-width: 768px) {
+  .contact {
+    i{
+      display: none !important;
+    }
+    .section-message{
+      text-align: center !important;
+    }
+    .phone {
+      position: relative;
+      &:after{
+        position: absolute;
+        content: '';
+        width: 2px;
+        height: 20px;
+        background: black;
+        right: 0;
+        top: 3px;
+      }
+    }
+  }
+}

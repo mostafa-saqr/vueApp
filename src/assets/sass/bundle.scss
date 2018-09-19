@@ -1,0 +1,23 @@
+//@import "../../node_modules/bootstrap/scss/bootstrap";
+/*variabels*/
+@import "./variables";
+
+/*masterlayout*/
+@import "./masterlayout";
+
+/*header*/
+@import "./header/top-header";
+@import "./header/middle-header";
+@import "./header/bottom-header";
+
+
+/*footer*/
+@import "./footer/connect-withus";
+@import "./footer/contacts";
+@import "./footer/footer-menu";
+@import "./footer/newsletter";
+@import "./footer/copyrights";
+
+
+/*buttons*/
+@import "./buttons";  
