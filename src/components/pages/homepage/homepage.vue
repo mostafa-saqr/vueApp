@@ -11,14 +11,14 @@
     </div>
 </template>
 <script>
-import TopBanner from './top-banner.vue';
-import USPS from './USPs.vue';
-import MiddleDomino from './middledomino.vue';
-import ManyChoices from './many-choices.vue';
-import TrendingSearch from './trendingsearch.vue';
-import BottomBanner from './bottom-banner.vue';
-import CFY from './cfy.vue';
-import TOC from './topofcharts.vue';
+import TopBanner from 'top-banner.vue';
+import USPS from 'USPs.vue';
+import MiddleDomino from 'middledomino.vue';
+import ManyChoices from 'many-choices.vue';
+import TrendingSearch from 'trendingsearch.vue';
+import BottomBanner from 'bottom-banner.vue';
+import CFY from 'cfy.vue';
+import TOC from 'topofcharts.vue';
 
 export default {
     inherit: true,

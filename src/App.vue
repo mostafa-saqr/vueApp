@@ -17,10 +17,10 @@
 
 <script>
 
-import AppHeader from './components/header/header.vue';
-import mobMenu from './components/header/mobilemenu.vue';
-import HomePage from './components/pages/homepage/homepage.vue';
-import AppFooter from './components/footer/footer.vue';
+import AppHeader from 'components/header/header.vue';
+import mobMenu from 'components/header/mobilemenu.vue';
+import HomePage from 'components/pages/homepage/homepage.vue';
+import AppFooter from 'components/footer/footer.vue';
 
 
 
@@ -60,5 +60,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "./assets/sass/bundle";
+  @import "assets/sass/bundle";
 </style>
