@@ -9,7 +9,7 @@
                         <ul class="list-inline m-0">
                             <li class="list-inline-item">
                                 <div class="dropdown">
-                                    <img src="../../assets/images/UAEFlag.png" alt="" class="store-flag pl-2">
+                                    <img src="assets/images/UAEFlag.png" alt="" class="store-flag pl-2">
                                     <button class="btn btn-secondary dropdown-toggle store-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                  Dubai
                                 </button>
@@ -24,7 +24,7 @@
                         </ul>
                     </div>
                     <div class="col-md-2 text-center pt-2">
-                        <img src="../../assets/images/logo.png" alt="">
+                        <img src="assets/images/logo.png" alt="">
                     </div>
                     <div class="col-md-5 text-right pt-4">
                         <ul class="list-inline">
@@ -51,7 +51,7 @@
                                     <div class="cart-items">
                                         <div class="ci">
                                             <div class="media">
-                                                <img class="mr-3" src="../../assets/images/shoppingcart/image 10.1.jpg" alt="Generic placeholder image">
+                                                <img class="mr-3" src="assets/images/shoppingcart/image 10.1.jpg" alt="Generic placeholder image">
                                                 <div class="media-body">
                                                     <h5 class="mt-0">Chocolate Cake by Magnolia Bakery</h5>
                                                     <p class="m-0">desc-1</p>
@@ -62,7 +62,7 @@
                                         </div>
                                         <div class="ci">
                                             <div class="media">
-                                                <img class="mr-3" src="../../assets/images/shoppingcart/image 4.1.jpg" alt="Generic placeholder image">
+                                                <img class="mr-3" src="assets/images/shoppingcart/image 4.1.jpg" alt="Generic placeholder image">
                                                 <div class="media-body">
                                                     <h5 class="mt-0">Indulgent Rose Box </h5>
                                                     <p class="m-0">desc-1</p>
@@ -73,7 +73,7 @@
                                         </div>
                                         <div class="ci">
                                             <div class="media">
-                                                <img class="mr-3" src="../../assets/images/shoppingcart/image 9.1.jpg" alt="Generic placeholder image">
+                                                <img class="mr-3" src="assets/images/shoppingcart/image 9.1.jpg" alt="Generic placeholder image">
                                                 <div class="media-body">
                                                     <h5 class="mt-0">Your Crystal Heart (M)</h5>
                                                     <p class="m-0">desc-1</p>
