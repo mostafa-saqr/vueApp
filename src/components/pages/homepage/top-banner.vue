@@ -38,8 +38,7 @@ export default {
           Vue.nextTick(function(){
             xx.OpenCarusel()
             }.bind(xx))
-          
-          
+    
           ));
         },
         OpenCarusel: function(){
