@@ -31,7 +31,7 @@ export default {
     methods:{
         TopBanner: function(){
           var xx = this;
-          axios.get('http://joi-api-catalog-service.ap-southeast-1.elasticbeanstalk.com:8081/domino/top/1').then(response => (
+          axios.get('https://joi-api-catalog-service.ap-southeast-1.elasticbeanstalk.com:8081/domino/top/1').then(response => (
           xx.topBanners = response.data, 
           console.log(xx.topBanners),
           this.loading = false,
